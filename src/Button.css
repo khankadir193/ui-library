@@ -1,0 +1,27 @@
+.button {
+  background-color: #4CAF50; /* green background */
+  color: #fff; /* white text */
+  border: none; /* no border */
+  padding: 10px 20px; /* padding */
+  font-size: 16px; /* font size */
+  cursor: pointer; /* pointer cursor */
+  border-radius: 5px; /* rounded corners */
+}
+
+.btn ,.btn-primary{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;        
+}
+
+.button:hover {
+  background-color: #3e8e41; /* darker green on hover */
+}
+
+.button:active {
+  background-color: purple; /* even darker green on active */
+}

@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from './Button';
+import './Button.css';
 
 function App() {
+  const handleClick = () => {
+    console.log('Button clicked!');
+  };
   return (
     <div>
-      <h2>Hello World!!!</h2>
-
+      <Button onClick={handleClick} variant='primary'>Click Me!</Button>
     </div>
   );
 }
